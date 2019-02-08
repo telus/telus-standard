@@ -20,8 +20,10 @@
     "node": ">=8"
   },
   "files": [
-    "lib",
-    "index.js"
+    "bin",
+    "index.js",
+    "options.js",
+    "eslintrc.json"
   ],
   "bugs": {
     "url": "https://github.com/telus/telus-standard/issues"
