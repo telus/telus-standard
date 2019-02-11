@@ -4,15 +4,20 @@
 
 > Standard for TELUS Digital
 
+`telus-standard` is inspired by `standard` but with TELUS specific linting and a11y rules.
+
+For more information please see [standard.js](https://standardjs.com).
+
 ## Install
 
 ```bash
-npm install @telus/telus-standard
+npm install @telus/telus-standard --save-dev
 ```
 
-For local development, also run:
+## Usage
+
 ```bash
-npm run setup-local
+./node_modules/.bin/telus-standard
 ```
 
 ---
