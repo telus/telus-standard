@@ -51,13 +51,13 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jest": "^22.3.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-react": "^7.12.4",
     "standard-engine": "~10.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "cross-spawn": "^6.0.5",
-    "eslint-config-prettier": "^4.1.0",
     "eslint-index": "^1.5.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
