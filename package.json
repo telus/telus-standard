@@ -57,6 +57,7 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "cross-spawn": "^6.0.5",
+    "eslint-config-prettier": "^4.1.0",
     "eslint-index": "^1.5.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
