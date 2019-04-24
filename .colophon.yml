@@ -1,12 +1,12 @@
 version: 2.0
 
- id: "@telus/telus-standard"
+id: "@telus/telus-standard"
 
- about:
+about:
   title: "@telus/telus-standard"
   description: Standard for TELUS Digital
 
- contacts:
+contacts:
   - type: Project Manager
     name: Natasha Lander
     email: natasha.lander@telus.com
@@ -28,7 +28,7 @@ version: 2.0
     email: kyle.spaans@telus.com
     github: kspaans
 
- environments:
+environments:
   - type: git
     title: Source Code
     uri: https://github.com/telus/telus-standard.git
