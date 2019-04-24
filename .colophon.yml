@@ -1,0 +1,37 @@
+version: 2.0
+
+ id: "@telus/telus-standard"
+
+ about:
+  title: "@telus/telus-standard"
+  description: Standard for TELUS Digital
+
+ contacts:
+  - type: Project Manager
+    name: Natasha Lander
+    email: natasha.lander@telus.com
+    github: NatashaLander
+  - type: developer
+    name: Mauricio Mercado
+    email: mauricio.mercado@telus.com
+    github: maumercado
+  - type: developer
+    name: Samantha Vale
+    email: samantha.bezerra_vale@telus.com
+    github: karlasamantha
+  - type: developer
+    name: Ruxandra Fediuc
+    email: ruxandra.fediuc@telus.com
+    github: ruxandrafed
+  - type: developer
+    name: Kyle Spaans
+    email: kyle.spaans@telus.com
+    github: kspaans
+
+ environments:
+  - type: git
+    title: Source Code
+    uri: https://github.com/telus/telus-standard.git
+  - type: npm
+    title: NPM Package
+    uri: https://www.npmjs.com/package/@telus/telus-standard
