@@ -28,7 +28,7 @@ contacts:
     email: kyle.spaans@telus.com
     github: kspaans
 
-environments:
+references:
   - type: git
     title: Source Code
     uri: https://github.com/telus/telus-standard.git
