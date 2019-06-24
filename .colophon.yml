@@ -41,4 +41,7 @@ references:
   - title: NPM Package
     uri: https://www.npmjs.com/package/@telus/telus-standard
 
-environments: []
+environments:
+  - title: dummy env
+    uri: http://doesnotexist.com
+    description: Adding this dummy environment entry because at least one environment is required, and this project is not deployed anywhere.
