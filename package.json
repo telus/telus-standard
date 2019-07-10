@@ -34,7 +34,7 @@
     "lint:deps": "npx updated",
     "lint:ec": "npx editorconfig-checker .",
     "lint:js": "./bin/cmd.js --verbose",
-    "lint:md": "npx remark --quiet --frail .",
+    "lint:md": "npx remark-cli --quiet --frail .",
     "lint": "npx npm-run-all -p -c -l lint:*",
     "setup-local": "npx install-group peer --package @telus/build-essential --no-save",
     "fix:js": "./bin/cmd.js --verbose --fix",
@@ -46,24 +46,25 @@
     "test": "./bin/cmd.js --verbose && tape test/*.js"
   },
   "dependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jest": "^22.6.4",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-react": "^7.13.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-react": "^7.14.2",
     "standard-engine": "~10.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
+    "@telus/remark-config": "^1.2.0",
+    "babel-eslint": "^10.0.2",
     "cross-spawn": "^6.0.5",
     "eslint-index": "^1.5.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "run-parallel-limit": "^1.0.5",
-    "standard-packages": "^3.5.1",
-    "tape": "^4.10.2"
+    "standard-packages": "^3.5.2",
+    "tape": "^4.11.0"
   },
   "telus-standard": {
     "ignore": [
