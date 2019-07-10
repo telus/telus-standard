@@ -24,14 +24,21 @@ contacts:
     email: ruxandra.fediuc@telus.com
     github: ruxandrafed
   - type: developer
-    name: Kyle Spaans
-    email: kyle.spaans@telus.com
-    github: kspaans
+    name: Matt Seburn
+    email: matt.seburn@telus.com
+    github: mattseburn
+  - type: developer
+    name: Bill Li
+    email: bill.li@telus.com
+    github: billxinli
+  - type: Product Owner
+    name: Daniel Tyrala
+    email: daniel.tyrala@telus.com
+
+references:
+  - title: NPM Package
+    uri: https://www.npmjs.com/package/@telus/telus-standard
 
 environments:
-  - type: git
-    title: Source Code
+  - title: Source Code
     uri: https://github.com/telus/telus-standard.git
-  - type: npm
-    title: NPM Package
-    uri: https://www.npmjs.com/package/@telus/telus-standard
