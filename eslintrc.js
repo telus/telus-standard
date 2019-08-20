@@ -4,6 +4,8 @@ module.exports = {
     "prettier"
   ],
 
+  parser: "babel-eslint",
+
   plugins: [
     "import",
     "jsx-a11y",
@@ -12,8 +14,8 @@ module.exports = {
   ],
 
   env: {
-    "jest/globals": true,
-    "browser": true
+    jest: true,
+    browser: true
   },
 
   rules: {

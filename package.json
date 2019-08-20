@@ -46,7 +46,8 @@
     "test": "./bin/cmd.js --verbose && tape test/*.js"
   },
   "dependencies": {
-    "eslint": "^6.2.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
@@ -57,7 +58,6 @@
   },
   "devDependencies": {
     "@telus/remark-config": "^1.2.0",
-    "babel-eslint": "^10.0.2",
     "cross-spawn": "^6.0.5",
     "eslint-index": "^1.5.0",
     "minimist": "^1.2.0",
@@ -69,7 +69,6 @@
   "telus-standard": {
     "ignore": [
       "/test"
-    ],
-    "parser": "babel-eslint"
+    ]
   }
 }
