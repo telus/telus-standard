@@ -1,19 +1,23 @@
-{
-  "extends": [
+module.exports = {
+  extends: [
     "airbnb",
     "prettier"
   ],
-  "plugins": [
+
+  plugins: [
     "import",
     "jsx-a11y",
     "react",
     "jest"
   ],
-  "env": {
+
+  env: {
     "jest/globals": true,
     "browser": true
   },
-  "rules": {
+
+  rules: {
+    // eslint
     "arrow-body-style": "off",
     "class-methods-use-this": "off",
     "comma-dangle": [
@@ -21,9 +25,6 @@
       "never"
     ],
     "global-require": "off",
-    "import/default": "error",
-    "import/named": "error",
-    "jsx-a11y/no-static-element-interaction": "off",
     "no-alert": "error",
     "no-console": "error",
     "no-underscore-dangle": "off",
@@ -36,6 +37,33 @@
       "error",
       "single"
     ],
+
+
+    // import plugin
+    "import/default": "error",
+    "import/named": "error",
+    "import/no-extraneous-dependencies": ["error", {
+      devDependencies: [
+        'test/**', // tape, common npm pattern
+        'tests/**', // also common npm pattern
+        'spec/**', // mocha, rspec-like pattern
+        '**/__tests__/**', // jest pattern
+        '**/__mocks__/**', // jest pattern
+        'test.{js,jsx}', // repos with a single test file
+        'test-*.{js,jsx}', // repos with multiple top-level test files
+        '**/*{.,_}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
+        '**/jest.config.js', // jest config
+        '**/jest.setup.js', // jest setup
+        '**/jestenv.js', // jestenv
+        '**/postcss.config.js', // postcss
+        '**/webpack.config.js', // webpack config
+        '**/webpack.config.*.js', // webpack config
+        '**/webpack.*.config.js', // TELUS webpack config
+      ],
+      optionalDependencies: false
+    }],
+
+    // react plugin
     "react/display-name": "error",
     "react/forbid-prop-types": [
       1,
@@ -58,6 +86,9 @@
     "react/no-multi-comp": "warn",
     "react/no-unknown-property": "warn",
     "react/sort-comp": "warn",
+
+    // jsx-a11y plugin
+    "jsx-a11y/no-static-element-interaction": "off",
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": [
       "warn",
@@ -67,5 +98,6 @@
         ]
       }
     ]
+
   }
 }
