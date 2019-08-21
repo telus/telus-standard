@@ -23,7 +23,7 @@
     "bin",
     "index.js",
     "options.js",
-    "eslintrc.json"
+    "eslintrc.js"
   ],
   "bugs": {
     "url": "https://github.com/telus/telus-standard/issues"
