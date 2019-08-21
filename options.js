@@ -7,7 +7,7 @@ module.exports = {
   cmd: 'telus-standard',
   eslint,
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc.json'),
+    configFile: path.join(__dirname, 'eslintrc.js'),
     cache: false
   },
   homepage: pkg.homepage,

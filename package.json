@@ -31,7 +31,7 @@
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npm audit",
-    "lint:deps": "npx updated",
+    "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb",
     "lint:ec": "npx editorconfig-checker .",
     "lint:js": "./bin/cmd.js --verbose",
     "lint:md": "npx remark-cli --quiet --frail .",
@@ -46,30 +46,29 @@
     "test": "./bin/cmd.js --verbose && tape test/*.js"
   },
   "dependencies": {
-    "eslint": "^6.2.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.15.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
-    "standard-engine": "~10.0.0"
+    "standard-engine": "^12.0.0"
   },
   "devDependencies": {
     "@telus/remark-config": "^1.2.0",
-    "babel-eslint": "^10.0.2",
     "cross-spawn": "^6.0.5",
     "eslint-index": "^1.5.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "run-parallel-limit": "^1.0.5",
-    "standard-packages": "^3.6.3",
+    "standard-packages": "^3.7.0",
     "tape": "^4.11.0"
   },
   "telus-standard": {
     "ignore": [
       "/test"
-    ],
-    "parser": "babel-eslint"
+    ]
   }
 }
