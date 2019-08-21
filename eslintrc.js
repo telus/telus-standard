@@ -1,16 +1,16 @@
 module.exports = {
   extends: [
-    "airbnb",
-    "prettier"
+    'airbnb',
+    'prettier'
   ],
 
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
 
   plugins: [
-    "import",
-    "jsx-a11y",
-    "react",
-    "jest"
+    'import',
+    'jsx-a11y',
+    'react',
+    'jest'
   ],
 
   env: {
@@ -20,31 +20,31 @@ module.exports = {
 
   rules: {
     // eslint
-    "arrow-body-style": "off",
-    "class-methods-use-this": "off",
-    "comma-dangle": [
-      "error",
-      "never"
+    'arrow-body-style': 'off',
+    'class-methods-use-this': 'off',
+    'comma-dangle': [
+      'error',
+      'never'
     ],
-    "global-require": "off",
-    "no-alert": "error",
-    "no-console": "error",
-    "no-underscore-dangle": "off",
-    "padded-blocks": "error",
-    "semi": [
-      "error",
-      "never"
+    'global-require': 'off',
+    'no-alert': 'error',
+    'no-console': 'error',
+    'no-underscore-dangle': 'off',
+    'padded-blocks': 'error',
+    'semi': [
+      'error',
+      'never'
     ],
-    "quotes": [
-      "error",
-      "single"
+    'quotes': [
+      'error',
+      'single'
     ],
 
 
     // import plugin
-    "import/default": "error",
-    "import/named": "error",
-    "import/no-extraneous-dependencies": ["error", {
+    'import/default': 'error',
+    'import/named': 'error',
+    'import/no-extraneous-dependencies': ['error', {
       devDependencies: [
         'test/**', // tape, common npm pattern
         'tests/**', // also common npm pattern
@@ -60,43 +60,43 @@ module.exports = {
         '**/postcss.config.js', // postcss
         '**/webpack.config.js', // webpack config
         '**/webpack.config.*.js', // webpack config
-        '**/webpack.*.config.js', // TELUS webpack config
+        '**/webpack.*.config.js' // TELUS webpack config
       ],
       optionalDependencies: false
     }],
 
     // react plugin
-    "react/display-name": "error",
-    "react/forbid-prop-types": [
+    'react/display-name': 'error',
+    'react/forbid-prop-types': [
       1,
       {
-        "forbid": [
-          "any"
+        'forbid': [
+          'any'
         ]
       }
     ],
-    "react/jsx-boolean-value": "off",
-    "react/jsx-key": "error",
-    "react/jsx-max-props-per-line": "off",
-    "react/jsx-uses-react": [
-      "warn"
+    'react/jsx-boolean-value': 'off',
+    'react/jsx-key': 'error',
+    'react/jsx-max-props-per-line': 'off',
+    'react/jsx-uses-react': [
+      'warn'
     ],
-    "react/no-danger": "off",
-    "react/no-did-mount-set-state": "warn",
-    "react/no-did-update-set-state": "warn",
-    "react/no-direct-mutation-state": "warn",
-    "react/no-multi-comp": "warn",
-    "react/no-unknown-property": "warn",
-    "react/sort-comp": "warn",
+    'react/no-danger': 'off',
+    'react/no-did-mount-set-state': 'warn',
+    'react/no-did-update-set-state': 'warn',
+    'react/no-direct-mutation-state': 'warn',
+    'react/no-multi-comp': 'warn',
+    'react/no-unknown-property': 'warn',
+    'react/sort-comp': 'warn',
 
     // jsx-a11y plugin
-    "jsx-a11y/no-static-element-interaction": "off",
-    "jsx-a11y/href-no-hash": "off",
-    "jsx-a11y/anchor-is-valid": [
-      "warn",
+    'jsx-a11y/no-static-element-interaction': 'off',
+    'jsx-a11y/href-no-hash': 'off',
+    'jsx-a11y/anchor-is-valid': [
+      'warn',
       {
-        "aspects": [
-          "invalidHref"
+        'aspects': [
+          'invalidHref'
         ]
       }
     ]
