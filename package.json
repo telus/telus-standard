@@ -54,7 +54,7 @@
     "eslint-plugin-jest": "^22.15.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
-    "standard-engine": "~10.0.0"
+    "standard-engine": "^12.0.0"
   },
   "devDependencies": {
     "@telus/remark-config": "^1.2.0",
@@ -63,7 +63,7 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "run-parallel-limit": "^1.0.5",
-    "standard-packages": "^3.6.3",
+    "standard-packages": "^3.7.0",
     "tape": "^4.11.0"
   },
   "telus-standard": {
