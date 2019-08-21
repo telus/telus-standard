@@ -31,7 +31,7 @@
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npm audit",
-    "lint:deps": "npx updated",
+    "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb",
     "lint:ec": "npx editorconfig-checker .",
     "lint:js": "./bin/cmd.js --verbose",
     "lint:md": "npx remark-cli --quiet --frail .",
