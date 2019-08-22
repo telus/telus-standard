@@ -31,7 +31,7 @@
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npm audit",
-    "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb",
+    "lint:deps": "npx updated --ignore=eslint",
     "lint:ec": "npx editorconfig-checker .",
     "lint:js": "./bin/cmd.js --verbose",
     "lint:md": "npx remark-cli --quiet --frail .",
@@ -48,7 +48,7 @@
   "dependencies": {
     "babel-eslint": "^10.0.2",
     "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb": "^18.0.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.15.1",

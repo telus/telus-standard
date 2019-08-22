@@ -20,6 +20,7 @@ module.exports = {
 
   rules: {
     // eslint
+    'arrow-parens': ['warn','always'],
     'arrow-body-style': 'off',
     'class-methods-use-this': 'off',
     'comma-dangle': [
@@ -81,6 +82,10 @@ module.exports = {
     'react/jsx-uses-react': [
       'warn'
     ],
+    'react/jsx-props-no-spreading': [ 'warn', {
+      html: 'enforce',
+      custom: 'enforce'
+    }],
     'react/no-danger': 'off',
     'react/no-did-mount-set-state': 'warn',
     'react/no-did-update-set-state': 'warn',
