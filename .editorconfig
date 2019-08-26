@@ -10,6 +10,7 @@ trim_trailing_whitespace = true
 
 [*.md]
 trim_trailing_whitespace = false
+indent_size = unset
 
 [*.{iml,xml}]
 insert_final_newline = false

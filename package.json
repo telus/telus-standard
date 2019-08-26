@@ -32,7 +32,7 @@
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npm audit",
     "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb",
-    "lint:ec": "npx editorconfig-checker .",
+    "lint:ec": "npx editorconfig-checker -v .",
     "lint:js": "./bin/cmd.js --verbose",
     "lint:md": "npx remark-cli --quiet --frail .",
     "lint": "npx npm-run-all -p -c -l lint:*",
@@ -59,6 +59,7 @@
   "devDependencies": {
     "@telus/remark-config": "^1.2.0",
     "cross-spawn": "^6.0.5",
+    "editorconfig-checker": "^2.2.0",
     "eslint-index": "^1.5.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
