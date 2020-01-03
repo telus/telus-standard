@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 const opts = require('../options')
 
 if (process.version.match(/v(\d+)\./)[1] < 6) {
