@@ -13,8 +13,7 @@
     "telus-standard": "./bin/cmd.js"
   },
   "keywords": [
-    "telus",
-    ""
+    "telus"
   ],
   "engines": {
     "node": ">=8"
