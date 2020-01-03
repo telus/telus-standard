@@ -46,17 +46,12 @@ You can also add `telus-standard` to your **package.json** scripts:
      eslint-plugin-react
    ```
 
-2. Remove unnecessary files
-   ```sh
-   rm -v .eslint*
-   ```
-
-3. Install `telus-standard`
+2. Install `telus-standard`
    ```sh
    npm i --save-dev @telus/telus-standard
    ```
 
-4. Update or add the these scripts in your **package.json**
+3. Update or add the these scripts in your **package.json**
    ```json
    {
      "scripts": {
@@ -66,7 +61,7 @@ You can also add `telus-standard` to your **package.json** scripts:
    }
    ```
 
-5. Run the lint command
+4. Run the lint command
    ```sh
    npm run lint
    ```
