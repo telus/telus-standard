@@ -1,6 +1,6 @@
 # TELUS Standard
 
-[![npm-image]][npm-url][![gha-image]][gha-url]
+[![Version][npm-image]][npm-url][![Build][gha-image]][gha-url]
 
 > Standard for TELUS Digital
 
