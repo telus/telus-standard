@@ -1,6 +1,6 @@
 # TELUS Standard
 
-[![version][npm-image]][npm-url] [![gha-shield]][gha-url]
+[![version][npm-image]][npm-url][![gha-image]][gha-url]
 > Standard for TELUS Digital
 
 `telus-standard` is inspired by `standard` but with TELUS specific linting and a11y rules.
@@ -96,8 +96,8 @@ you can
 > Github: [@telus](https://github.com/telus) &bull; 
 > Twitter: [@telusdigital](https://twitter.com/telusdigital)
 
-[gha-shield]: https://img.shields.io/github/workflow/status/telus/telus-standard/Build,%20Lint,%20Test%20and%20Deploy%20if%20master/master?style=for-the-badge
-[gha-url]: https://github.com/telus/telus-standard/actions?query=workflow%3A%22Build%2C+Lint%2C+Test+and+Deploy+if+master%22
+[gha-image]: https://img.shields.io/github/workflow/status/telus/telus-standard/Build,%20Lint,%20Test%20and%20Deploy%20if%20master/master?logo=github&style=for-the-badge
+[gha-url]: https://github.com/telus/telus-standard/actions?query=workflow%3A%22Build%2C+Lint%2C+Test+and+Deploy+if+master
 
 [npm-url]: https://www.npmjs.com/package/@telus/telus-standard
 [npm-image]: https://img.shields.io/npm/v/@telus/telus-standard.svg?style=for-the-badge&logo=npm
