@@ -1,6 +1,6 @@
 # TELUS Standard
 
-[![version][npm-image]][npm-url][![gha-image]][gha-url]
+[![version][npm-image]][npm-url][[gha-image]][gha-url]
 > Standard for TELUS Digital
 
 `telus-standard` is inspired by `standard` but with TELUS specific linting and a11y rules.
