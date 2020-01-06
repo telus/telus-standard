@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+## Unreleased
 
 ### Changed
 
@@ -12,3 +12,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   `.eslintrc.*` file. See
   [eslint docs for vaild files](https://eslint.org/docs/user-guide/configuring#configuration-file-formats)
   and [Pull Request #25 for why this is breaking](https://github.com/telus/telus-standard/pull/25)
+- Switched to Github Actions from CircleCI
