@@ -5,26 +5,31 @@ on: push
 jobs:
   Build:
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         node-version: [8.x, 10.x, 12.x]
+
     steps:
       - name: Check out the code
         uses: actions/checkout@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup node
         uses: actions/setup-node@v1
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         with:
           node-version: ${{ matrix.node-version }}
+
       - name: Install dependencies
         run: npm install
+
       - name: Run tests
         run: npm run test
+
       - name: Check linting
         run: npm run lint
+
       - name: Perform release
         if: github.ref  == 'master'
         run: npx semantic-release
