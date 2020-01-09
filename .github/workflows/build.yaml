@@ -1,6 +1,6 @@
-name: 'Build, Lint, Test and Deploy if master'
+name: 'Build, Lint, and Test'
 
-on: push
+on: pull_request
 
 jobs:
   Build:
@@ -30,8 +30,3 @@ jobs:
       - name: Check linting
         run: npm run lint
 
-      - name: Perform release
-        if: github.ref  == 'master'
-        run: npx semantic-release
-        env:
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
