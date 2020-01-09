@@ -1,4 +1,4 @@
-name: 'Deploy on merge to master'
+name: 'Publish package on merge to master'
 
 on:
   push:
@@ -6,11 +6,24 @@ on:
       - master
 
 job:
-  Deploy:
+  publish:
+    name: Publish package
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 8
+
+      - name: Install deps
+        run: npm ci
+
       - name: Publish package
-        run: npx semantic-release
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run release

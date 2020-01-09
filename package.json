@@ -35,14 +35,14 @@
     "lint:js": "./bin/cmd.js --verbose",
     "lint:md": "npx remark-cli --quiet --frail .",
     "lint": "npx npm-run-all -p -c -l lint:*",
-    "setup-local": "npx install-group peer --package @telus/build-essential --no-save",
     "fix:js": "./bin/cmd.js --verbose --fix",
     "fix:md": "npm run lint:md -- -o",
     "fix:deps": "npm run lint:deps -- --update",
     "show-rules": "eslint-index eslintrc.json",
     "show-rules-disabled": "eslint-index eslintrc.json --status omitted off",
     "show-summary": "eslint-index eslintrc.json --format table",
-    "test": "./bin/cmd.js --verbose && tape test/*.js"
+    "test": "./bin/cmd.js --verbose && tape test/*.js",
+    "release": "semantic-release"
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
@@ -63,6 +63,7 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "run-parallel-limit": "^1.0.5",
+    "semantic-release": "^15.14.0",
     "standard-packages": "^3.8.2",
     "tape": "^4.13.0"
   },
