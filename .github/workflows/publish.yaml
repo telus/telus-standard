@@ -1,0 +1,16 @@
+name: 'Deploy on merge to master'
+
+on:
+  push:
+    branches:
+      - master
+
+job:
+  Deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Publish package
+        run: npx semantic-release
+        env:
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
