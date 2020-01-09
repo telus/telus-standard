@@ -29,7 +29,7 @@
   },
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
-    "lint:audit": "npm audit",
+    "lint:audit": "audit-ci --config .audit-ci.json",
     "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb,editorconfig-checker",
     "lint:ec": "npx editorconfig-checker -v .",
     "lint:js": "./bin/cmd.js --verbose",
@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "@telus/remark-config": "^1.2.0",
+    "audit-ci": "^2.4.2",
     "cross-spawn": "^7.0.1",
     "editorconfig-checker": "^2.2.0",
     "eslint-index": "^1.5.0",
