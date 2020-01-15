@@ -65,7 +65,7 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "run-parallel-limit": "^1.0.5",
-    "semantic-release": "^15.14.0",
+    "semantic-release": "^16.0.2",
     "standard-packages": "^3.8.2",
     "tape": "^4.13.0"
   },
