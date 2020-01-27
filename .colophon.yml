@@ -1,39 +1,20 @@
 version: 2.0
 
-id: "@telus/telus-standard"
+id: "telus-standard"
 
 about:
-  title: "@telus/telus-standard"
+  title: "telus-standard"
   description: Standard for TELUS Digital
 
 contacts:
-  - type: Project Manager
-    name: Natasha Lander
-    email: natasha.lander@telus.com
-    github: NatashaLander
-  - type: developer
+  - type: Project Owner
+    name: Stephen Marie-Rhodes
+    email: Stephen.Marie-Rhodes@telus.com
+    github: stepmr
+  - type: Tech Lead
     name: Mauricio Mercado
     email: mauricio.mercado@telus.com
     github: maumercado
-  - type: developer
-    name: Samantha Vale
-    email: samantha.bezerra_vale@telus.com
-    github: karlasamantha
-  - type: developer
-    name: Ruxandra Fediuc
-    email: ruxandra.fediuc@telus.com
-    github: ruxandrafed
-  - type: developer
-    name: Matt Seburn
-    email: matt.seburn@telus.com
-    github: mattseburn
-  - type: developer
-    name: Bill Li
-    email: bill.li@telus.com
-    github: billxinli
-  - type: Product Owner
-    name: Daniel Tyrala
-    email: daniel.tyrala@telus.com
 
 references:
   - title: NPM Package
