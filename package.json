@@ -48,11 +48,11 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jest": "^23.3.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react": "^7.18.0",
     "standard-engine": "^12.0.0"
   },
   "devDependencies": {
@@ -63,9 +63,9 @@
     "editorconfig-checker": "^2.2.0",
     "eslint-index": "^1.5.0",
     "minimist": "^1.2.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.3",
     "run-parallel-limit": "^1.0.5",
-    "semantic-release": "^16.0.2",
+    "semantic-release": "^17.0.1",
     "standard-packages": "^3.8.2",
     "tape": "^4.13.0"
   },
