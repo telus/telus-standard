@@ -33,10 +33,8 @@
     "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb,editorconfig-checker",
     "lint:ec": "npx editorconfig-checker -v .",
     "lint:js": "./bin/cmd.js --verbose",
-    "lint:md": "npx remark-cli --quiet --frail .",
     "lint": "npx npm-run-all -p -c -l lint:*",
     "fix:js": "./bin/cmd.js --verbose --fix",
-    "fix:md": "npm run lint:md -- -o",
     "fix:deps": "npm run lint:deps -- --update",
     "show-rules": "eslint-index eslintrc.json",
     "show-rules-disabled": "eslint-index eslintrc.json --status omitted off",
@@ -56,7 +54,6 @@
     "standard-engine": "^12.0.0"
   },
   "devDependencies": {
-    "@telus/remark-config": "^1.2.0",
     "@telus/semantic-release-config": "^1.3.9",
     "audit-ci": "^2.4.2",
     "cross-spawn": "^7.0.1",
