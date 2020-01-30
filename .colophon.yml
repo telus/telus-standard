@@ -4,17 +4,17 @@ id: "telus-standard"
 
 about:
   title: "telus-standard"
-  description: Standard for TELUS Digital
+  description: Standard linting rules for TELUS Digital
 
 contacts:
   - type: Project Owner
     name: Stephen Marie-Rhodes
     email: Stephen.Marie-Rhodes@telus.com
     github: stepmr
-  - type: Tech Lead
-    name: Mauricio Mercado
-    email: mauricio.mercado@telus.com
-    github: maumercado
+  - type: Developer
+    name: Matthew Cantelon
+    email: matthew.cantelon@telus.com
+    github: mattcan
 
 references:
   - title: NPM Package
