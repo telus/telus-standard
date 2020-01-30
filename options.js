@@ -7,7 +7,8 @@ module.exports = {
   eslint,
   eslintConfig: {
     baseConfig: require('./eslintrc'),
-    useEslintrc: true
+    useEslintrc: true,
+    cache: false
   },
   homepage: pkg.homepage,
   tagline: 'Use TELUS JavaScript Standard Style',
