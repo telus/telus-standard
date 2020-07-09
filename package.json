@@ -30,7 +30,7 @@
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "audit-ci --config .audit-ci.json",
-    "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb,editorconfig-checker",
+    "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb,editorconfig-checker,tape",
     "lint:ec": "npx editorconfig-checker -v .",
     "lint:js": "./bin/cmd.js --verbose",
     "lint": "npx npm-run-all -p -c -l lint:*",
@@ -48,14 +48,14 @@
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.17.1",
+    "eslint-plugin-jest": "^23.18.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.3",
     "standard-engine": "^12.1.0"
   },
   "devDependencies": {
     "@telus/semantic-release-config": "^1.3.9",
-    "audit-ci": "^3.1.0",
+    "audit-ci": "^3.1.1",
     "cross-spawn": "^7.0.3",
     "editorconfig-checker": "^2.2.0",
     "eslint-index": "^1.5.0",
@@ -64,7 +64,7 @@
     "run-parallel-limit": "^1.0.5",
     "semantic-release": "^17.1.1",
     "standard-packages": "^3.8.2",
-    "tape": "^5.0.1"
+    "tape": "^4.13.0"
   },
   "telus-standard": {
     "ignore": [
