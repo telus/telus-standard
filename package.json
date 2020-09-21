@@ -30,7 +30,7 @@
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "audit-ci --config .audit-ci.json",
-    "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb,editorconfig-checker,tape",
+    "lint:deps": "npx updated --ignore=eslint,eslint-config-airbnb,editorconfig-checker,tape,eslint-plugin-jest",
     "lint:ec": "npx editorconfig-checker -v .",
     "lint:js": "./bin/cmd.js --verbose",
     "lint": "npx npm-run-all -p -c -l lint:*",
@@ -50,7 +50,7 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.18.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react": "^7.20.6",
     "standard-engine": "^12.1.0"
   },
   "devDependencies": {
@@ -62,7 +62,7 @@
     "minimist": "^1.2.5",
     "mkdirp": "^1.0.4",
     "run-parallel-limit": "^1.0.5",
-    "semantic-release": "^17.1.1",
+    "semantic-release": "^17.1.2",
     "standard-packages": "^3.8.2",
     "tape": "^4.13.0"
   },
