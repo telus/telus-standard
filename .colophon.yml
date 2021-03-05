@@ -1,25 +1,31 @@
-version: 2.0
+version: 4.0
 
 id: "telus-standard"
+uid: 169806060
 
 about:
-  title: "telus-standard"
+  title: Telus Standard
+  alias: telus-standard
   description: Standard linting rules for TELUS Digital
+  type: 'module'
+  target: npm
 
-contacts:
+ccontacts:
   - type: Project Owner
-    name: Stephen Marie-Rhodes
-    email: Stephen.Marie-Rhodes@telus.com
-    github: stepmr
-  - type: Developer
-    name: Matthew Cantelon
-    email: matthew.cantelon@telus.com
-    github: mattcan
+    name: Shimona Jain
+    email: shimona.jain@telus.com
 
-references:
-  - title: NPM Package
-    uri: https://www.npmjs.com/package/@telus/telus-standard
+  - type: Team
+    name: ptt-ti
+    members_uri: https://github.com/orgs/telus/teams/ptt-ti/members
+    repositories_uri: https://github.com/orgs/telus/teams/ptt-ti/repositories
 
 environments:
-  - title: Source Code
+  - type: production
+    title: NPM Package
+    uri: https://www.npmjs.com/package/@telus/telus-standard
+
+references:
+  - title: git
+    description: Source Code
     uri: https://github.com/telus/telus-standard.git

@@ -4,7 +4,10 @@ module.exports = {
     'prettier'
   ],
 
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false
+  },
 
   plugins: [
     'import',
@@ -88,6 +91,8 @@ module.exports = {
     'react/no-multi-comp': 'warn',
     'react/no-unknown-property': 'warn',
     'react/sort-comp': 'warn',
+    'react/jsx-props-no-spreading': 'warn',
+    'react/jsx-fragments': 'warn',
 
     // jsx-a11y plugin
     'jsx-a11y/no-static-element-interaction': 'off',
