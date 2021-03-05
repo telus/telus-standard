@@ -10,7 +10,7 @@ about:
   type: 'module'
   target: npm
 
-ccontacts:
+contacts:
   - type: Project Owner
     name: Shimona Jain
     email: shimona.jain@telus.com
