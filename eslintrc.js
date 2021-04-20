@@ -15,7 +15,11 @@ module.exports = {
     'react',
     'jest'
   ],
-
+  settings: {
+    'react': {
+      'version': 'detect'
+    }
+  },
   env: {
     jest: true,
     browser: true
