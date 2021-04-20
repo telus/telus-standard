@@ -43,7 +43,7 @@
     "test": "./bin/cmd.js --verbose && tape test/*.js"
   },
   "dependencies": {
-    "@babel/core": "^7.13.15",
+    "@babel/core": "^7.13.16",
     "@babel/eslint-parser": "^7.13.14",
     "eslint": "^7.24.0",
     "eslint-config-airbnb": "^18.2.1",
