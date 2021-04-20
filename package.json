@@ -34,7 +34,7 @@
     "lint:ec": "npx editorconfig-checker",
     "lint:js": "./bin/cmd.js --verbose",
     "lint:md": "npx remark-cli --quiet --frail .",
-    "lint": "npx npm-run-all -p -c -l lint:*",
+    "lint": "npm-run-all -p -c -l lint:*",
     "fix:js": "./bin/cmd.js --verbose --fix",
     "fix:deps": "npm run lint:deps -- --update",
     "show-rules": "eslint-index eslintrc.json",
@@ -52,6 +52,7 @@
     "eslint-plugin-jest": "^24.3.5",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
+    "npm-run-all": "^4.1.5",
     "standard-engine": "^14.0.1"
   },
   "devDependencies": {
