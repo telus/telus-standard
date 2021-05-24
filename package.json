@@ -43,13 +43,13 @@
     "test": "./bin/cmd.js --verbose && tape test/*.js"
   },
   "dependencies": {
-    "@babel/core": "^7.13.16",
-    "@babel/eslint-parser": "^7.13.14",
-    "eslint": "^7.24.0",
+    "@babel/core": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.3",
+    "eslint": "^7.27.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.3.5",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "npm-run-all": "^4.1.5",
@@ -58,7 +58,7 @@
   "devDependencies": {
     "@telus/remark-config": "^2.0.0",
     "@telus/semantic-release-config": "^2.0.0",
-    "audit-ci": "^3.2.0",
+    "audit-ci": "^4.0.0",
     "cross-spawn": "^7.0.3",
     "editorconfig-checker": "^4.0.2",
     "eslint-index": "^1.5.0",
