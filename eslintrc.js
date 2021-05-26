@@ -97,6 +97,7 @@ module.exports = {
     'react/sort-comp': 'warn',
     'react/jsx-props-no-spreading': 'warn',
     'react/jsx-fragments': 'warn',
+    'react/require-default-props': ['error',{ forbidDefaultForRequired: false, ignoreFunctionalComponents: true }],
 
     // jsx-a11y plugin
     'jsx-a11y/no-static-element-interaction': 'off',
