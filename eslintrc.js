@@ -46,7 +46,7 @@ module.exports = {
       'error',
       'single'
     ],
-
+    'prefer-object-spread': 'warn',
 
     // import plugin
     'import/default': 'error',
@@ -109,7 +109,8 @@ module.exports = {
           'invalidHref'
         ]
       }
-    ]
+    ],
+    'react/jsx-curly-brace-presence': 'warn'
 
   }
 }
