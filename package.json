@@ -65,7 +65,7 @@
     "cross-spawn": "^7.0.3",
     "editorconfig-checker": "^4.0.2",
     "eslint-index": "^1.5.0",
-    "husky": "^4.3.8",
+    "husky": "^7.0.0",
     "minimist": "^1.2.5",
     "mkdirp": "^1.0.4",
     "run-parallel-limit": "^1.1.0",
