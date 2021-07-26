@@ -58,8 +58,8 @@
     "standard-engine": "^14.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-angular": "^12.1.4",
+    "@commitlint/cli": "^13.0.0",
+    "@commitlint/config-angular": "^13.0.0",
     "@telus/remark-config": "^2.0.0",
     "@telus/semantic-release-config": "^2.0.0",
     "cross-spawn": "^7.0.3",
