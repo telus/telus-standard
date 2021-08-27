@@ -43,14 +43,14 @@
     "test": "./bin/cmd.js --verbose && tape test/*.js"
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/eslint-parser": "^7.14.7",
+    "@babel/core": "^7.15.0",
+    "@babel/eslint-parser": "^7.15.0",
     "babel-preset-airbnb": "^5.0.0",
-    "eslint": "^7.29.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
@@ -58,10 +58,10 @@
     "standard-engine": "^14.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-angular": "^12.1.4",
-    "@telus/remark-config": "^2.0.0",
-    "@telus/semantic-release-config": "^2.0.0",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-angular": "^13.1.0",
+    "@telus/remark-config": "^2.0.2",
+    "@telus/semantic-release-config": "^2.0.2",
     "cross-spawn": "^7.0.3",
     "editorconfig-checker": "^4.0.2",
     "eslint-index": "^1.5.0",
@@ -70,7 +70,7 @@
     "mkdirp": "^1.0.4",
     "run-parallel-limit": "^1.1.0",
     "standard-packages": "^3.10.0",
-    "tape": "^5.2.2"
+    "tape": "^5.3.1"
   },
   "telus-standard": {
     "ignore": [
