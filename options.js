@@ -12,6 +12,7 @@ module.exports = {
   eslintConfig: {
     baseConfig,
     useEslintrc: true,
-    cache: false
+    cache: false,
+    resolvePluginsRelativeTo: __dirname
   }
 }
