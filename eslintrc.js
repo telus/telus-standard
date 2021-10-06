@@ -1,10 +1,12 @@
 module.exports = {
   extends: [
-    'airbnb',
-    'prettier'
+    // Resolve to absolute paths so it can be found relative to wherever eslint is running
+    require.resolve('eslint-config-airbnb'),
+    require.resolve('eslint-config-prettier')
   ],
 
-  parser: '@babel/eslint-parser',
+  // Resolve to absolute path so it can be found relative to wherever eslint is running
+  parser: require.resolve('@babel/eslint-parser'),
   parserOptions: {
     requireConfigFile: false
   },

@@ -1,6 +1,6 @@
 const eslint = require('eslint')
-const path = require('path')
 const pkg = require('./package.json')
+const baseConfig = require('./eslintrc')
 
 module.exports = {
   version: pkg.version,
@@ -10,7 +10,7 @@ module.exports = {
   cmd: 'telus-standard',
   tagline: 'Use TELUS JavaScript Standard Style',
   eslintConfig: {
-    configFile: path.join(__dirname, './eslintrc.js'),
+    baseConfig,
     useEslintrc: true,
     cache: false
   }
