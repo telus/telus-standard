@@ -1,6 +1,6 @@
 {
   "moderate": true,
-  "advisories": [],
+  "advisories": [1002401],
   "whitelist": [],
   "registry": "https://registry.npmjs.org"
 }
