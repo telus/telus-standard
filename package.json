@@ -41,7 +41,7 @@
     "test": "./bin/cmd.js --verbose && tape test/*.js"
   },
   "dependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.16.12",
     "@babel/eslint-parser": "^7.16.5",
     "babel-preset-airbnb": "^5.0.0",
     "eslint": "^7.32.0",
@@ -56,10 +56,10 @@
     "standard-engine": "^14.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.2.1",
-    "@commitlint/config-angular": "^13.2.0",
-    "@telus/remark-config": "^2.0.4",
-    "@telus/semantic-release-config": "^2.0.4",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-angular": "^16.0.0",
+    "@telus/remark-config": "^2.0.5",
+    "@telus/semantic-release-config": "^2.0.5",
     "cross-spawn": "^7.0.3",
     "editorconfig-checker": "^4.0.2",
     "eslint-index": "^1.5.0",
@@ -68,7 +68,7 @@
     "mkdirp": "^1.0.4",
     "run-parallel-limit": "^1.1.0",
     "standard-packages": "^3.10.0",
-    "tape": "^5.3.2"
+    "tape": "^5.5.0"
   },
   "telus-standard": {
     "ignore": [
