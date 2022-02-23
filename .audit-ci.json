@@ -1,6 +1,16 @@
 {
   "moderate": true,
-  "advisories": [1004946, 1006724, 1005534],
-  "whitelist": [],
-  "registry": "https://registry.npmjs.org"
+  "allowlist": [
+    1004946,
+    1005534,
+    1006724,
+    1007017
+  ],
+  "registry": "https://registry.npmjs.org",
+  "_remark": {
+    "1004946": "@semantic-release/npm > npm > cli-columns > string-width > strip-ansi > ansi-regex",
+    "1005534": "eslint-index > yargs > yargs-parser",
+    "1006724": "@semantic-release/npm > npm > node-gyp > request > http-signature > jsprim > json-schema",
+    "1007017": "eslint-index > eslint > ajv"
+  }
 }
