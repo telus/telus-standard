@@ -7,7 +7,7 @@
   ],
   "registry": "https://registry.npmjs.org",
   "_remark": {
-    "1004946": "cli-table3 > strip-ansi > ansi-regex",
+    "1064843": "cli-table3 > strip-ansi > ansi-regex",
     "1065523": "eslint-index > yargs > yargs-parser",
     "1065159": "eslint-index > eslint > ajv"
   }
