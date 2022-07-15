@@ -29,7 +29,7 @@
   },
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
-    "lint:audit": "npx audit-ci@4.1.0 --config .audit-ci.json",
+    "lint:audit": "npx audit-ci@6.3.0 --config .audit-ci.jsonc",
     "lint:ec": "npx editorconfig-checker",
     "lint:js": "./bin/cmd.js --verbose",
     "lint:md": "npx remark-cli --quiet --frail .",
