@@ -61,7 +61,7 @@
     "@telus/remark-config": "^2.2.5",
     "@telus/semantic-release-config": "^2.3.0",
     "cross-spawn": "^7.0.3",
-    "editorconfig-checker": "^4.0.2",
+    "editorconfig-checker": "^5.0.0",
     "husky": "^4.3.8",
     "minimist": "^1.2.7",
     "mkdirp": "^1.0.4",
