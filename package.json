@@ -64,7 +64,7 @@
     "editorconfig-checker": "^4.0.2",
     "husky": "^4.3.8",
     "minimist": "^1.2.7",
-    "mkdirp": "^1.0.4",
+    "mkdirp": "^2.0.0",
     "run-parallel-limit": "^1.1.0",
     "standard-packages": "^3.10.0",
     "tape": "^5.6.1"
