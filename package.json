@@ -62,7 +62,7 @@
     "@telus/semantic-release-config": "^2.3.0",
     "cross-spawn": "^7.0.3",
     "editorconfig-checker": "^4.0.2",
-    "husky": "^4.3.8",
+    "husky": "^8.0.0",
     "minimist": "^1.2.7",
     "mkdirp": "^1.0.4",
     "run-parallel-limit": "^1.1.0",
