@@ -16,7 +16,7 @@
     "telus"
   ],
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "files": [
     "bin",
@@ -27,6 +27,9 @@
   "bugs": {
     "url": "https://github.com/telus/telus-standard/issues"
   },
+  "override": {
+    "tsconfig-paths": "^4.1.2"
+  },
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npx audit-ci@6.3.0 --config .audit-ci.jsonc",
@@ -35,9 +38,6 @@
     "lint:md": "npx remark-cli --quiet --frail .",
     "lint": "npm-run-all -p -c -l lint:*",
     "fix:js": "./bin/cmd.js --verbose --fix",
-    "show-rules": "eslint-index eslintrc.json",
-    "show-rules-disabled": "eslint-index eslintrc.json --status omitted off",
-    "show-summary": "eslint-index eslintrc.json --format table",
     "test": "./bin/cmd.js --verbose && tape test/*.js"
   },
   "dependencies": {
@@ -47,7 +47,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jest": "^26.9.0",
     "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-react": "^7.31.11",
@@ -59,10 +59,9 @@
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-angular": "^17.3.0",
     "@telus/remark-config": "^2.2.5",
-    "@telus/semantic-release-config": "^2.2.5",
+    "@telus/semantic-release-config": "^2.3.0",
     "cross-spawn": "^7.0.3",
     "editorconfig-checker": "^4.0.2",
-    "eslint-index": "^1.5.0",
     "husky": "^4.3.8",
     "minimist": "^1.2.7",
     "mkdirp": "^1.0.4",

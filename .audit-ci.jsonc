@@ -1,12 +1,6 @@
 {
   "moderate": true,
   "allowlist": [
-    "GHSA-v88g-cgmw-v5xw|eslint-index>eslint>ajv",
-    "GHSA-v88g-cgmw-v5xw|table>ajv>",
-    "GHSA-93q8-gq69-wqmw|ansi-regex",
-    "GHSA-p9pc-299p-vxgp|yargs>yargs-parser",
-    "GHSA-v88g-cgmw-v5xw|eslint>ajv",
-    "GHSA-p9pc-299p-vxgp|eslint-index>yargs>yargs-parser"
   ],
   "registry": "https://registry.npmjs.org"
 }
