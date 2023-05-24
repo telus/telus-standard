@@ -27,9 +27,6 @@
   "bugs": {
     "url": "https://github.com/telus/telus-standard/issues"
   },
-  "override": {
-    "tsconfig-paths": "^4.1.2"
-  },
   "scripts": {
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npx audit-ci --config .audit-ci.jsonc",
