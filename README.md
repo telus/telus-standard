@@ -1,4 +1,5 @@
-[![Version][npm-image]][npm-url][![Build][gha-image]][gha-url]
+![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)
+![npm](https://img.shields.io/npm/v/@telus/telus-standard)
 
 # TELUS Standard
 
