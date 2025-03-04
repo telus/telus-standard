@@ -1,4 +1,4 @@
-![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)
+![maintenance-status](https://img.shields.io/badge/deprecated-red.svg)
 ![npm](https://img.shields.io/npm/v/@telus/telus-standard)
 
 # DEPRECATION
