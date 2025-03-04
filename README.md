@@ -1,6 +1,12 @@
 ![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)
 ![npm](https://img.shields.io/npm/v/@telus/telus-standard)
 
+# DEPRECATION
+
+@telus/telus-standard is deprecated.
+
+[@telus/eslint-config](https://github.com/telus/eslint-config) is the recommended linting config for Javascript and Typescript.
+
 # TELUS Standard
 
 > Standard for TELUS Digital
